@@ -97,7 +97,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className=""
             >
-              <img src="/assets/icons/Linkedin.svg" alt="" srcset="" />
+              <img src="/assets/icons/LinkedIn.svg" alt="" srcset="" />
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
