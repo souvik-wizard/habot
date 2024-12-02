@@ -7,7 +7,7 @@ const DropDown = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex items-center  bg-white w-full">
+    <div className="flex items-center  bg-white w-full z-50">
       <motion.div animate={open ? "open" : "closed"} className="relative">
         <button
           onClick={() => setOpen((pv) => !pv)}

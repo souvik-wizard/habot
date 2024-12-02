@@ -19,12 +19,16 @@ const MobileNav = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-0 inset-x-0 p-2 origin-top-right md:hidden transition-all transform ease-in-out duration-300">
+        <div className="absolute top-0 inset-x-0 p-2 origin-top-right md:hidden transition-all transform ease-in-out duration-300 z-50  ">
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img src="/assets/logo.svg" alt="logo" className="w-32" />
+                  <img
+                    src="/assets/icons/logo.svg"
+                    alt="logo"
+                    className="w-32"
+                  />
                 </div>
                 <div className="-mr-2">
                   <button

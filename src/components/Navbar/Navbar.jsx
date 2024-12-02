@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className=" mx-auto px-4 sm:px-6 lg:px-16">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <img src="/assets/logo.svg" alt="logo" className="w-32" />
+            <img src="/assets/icons/logo.svg" alt="logo" className="w-32" />
           </div>
           <div className="flex gap-8">
             <div className="hidden md:flex items-center justify-center">
