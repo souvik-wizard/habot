@@ -20,8 +20,8 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="border-b border-gray-200">
-      <div className=" mx-auto px-4 sm:px-6 lg:px-16">
+    <nav className="fixed top-0 left-0 w-full bg-white z-50 border-b border-gray-200">
+      <div className="mx-auto px-4 sm:px-6 lg:px-16">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <img src="/assets/icons/logo.svg" alt="logo" className="w-32" />

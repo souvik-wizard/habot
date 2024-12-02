@@ -3,7 +3,7 @@ import PrimaryButton from "./PrimaryButton";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-custom  flex items-center justify-center">
+    <div className="relative min-h-screen  flex items-center justify-center">
       <img
         src="/assets/bg.png"
         alt="hero"

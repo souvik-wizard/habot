@@ -29,7 +29,7 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <div className="py-16 px-4 w-[90%] mx-auto">
+    <div className="my-16 px-4 w-[90%] mx-auto">
       <div className="container mx-auto">
         <div className="text-center mb-20">
           <h3 className="text-4xl font-bold mb-8">How it works?</h3>
